@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body{
+    height: 10000px;
+    background-image: url(../img/bk-img_TOP_cording_op70.jpg);
+    background-repeat: repeat-y;
+    /* background-position: left; */
+    background-size: 100% auto;
+}
+.decorative-container{
+    position: relative;  /* 子要素の絶対配置の基準 */
+    width: 100%;
+    height: 0px;       /* 必要に応じて調整 */
+    background: #f0f0f0; /* コンテナの背景色（任意） */
+}
+/* 共通のスタイル */
+.decorative-container__img {
+    position: absolute;
+    max-width: 10%;    /* 画像サイズの例。適宜調整 */
+  }
+.header__decorator-singlemark{
+    top: 500pX;
+    left: 0;
+}
+.header__decorator-doublemark{
+    top: 800px;
+    left: 35.6%;
+    transform: translate(-50%, -50%);
+}
+.header__decorator-hex{
+    top: 850pX;
+    left: 0;
+}
+.header__decorator-round{
+    top: 100px;
+    right: 100px;
+}
+#header {
+    width: 18.75vw;
+    height: 1020px;
+    background-color: #333333;
+    margin: 0 auto;
+    position: relative; /* 子要素の絶対配置の基準 */
+  }
+
+.header__logo{
+    max-width: 70%;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+/* #header 内にテキストを中央配置するためのコンテナ */
+.header__content {
+    position: absolute;
+    max-width: 70%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;          /* 横並びにする */
+    align-items: center;    /* 縦方向中央に揃える */
+  }
+  
+  /* 「妹尾　洋介」を縦書き、30px に設定 */
+  .header__name {
+    writing-mode: vertical-rl;   /* 縦書き（右から左） */
+    text-orientation: upright;   /* 文字を直立させる */
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  /* 「ポートフォリオ」を横書き、20px に設定（右側に添える） */
+  .header__portfolio {
+    writing-mode: vertical-rl;   /* 縦書き（右から左） */
+    text-orientation: upright;   /* 文字を直立させる */
+    font-size: 20px;
+    margin: 0 0 0 10px;  /* 左側に10pxの余白で隣接 */
+  }
+
+
+
+.header__nav{
+    margin-top: 200px;
+}
+
+
+.navbar__item p{
+    color: #939393;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.navbar__item{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+
+
+/* testcode */
+
+.vertical-text-3lines {
+    writing-mode: vertical-rl; /* 縦書き */
+    text-orientation: upright; /* 文字を直立表示 */
+    column-count: 3;         /* 3列に分割 */
+    column-gap: 1em;         /* 列間の隙間（必要に応じて調整） */
+    white-space: normal;     /* 改行を許可 */
+    margin: 0 auto;
+  }

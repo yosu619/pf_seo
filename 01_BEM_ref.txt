@@ -1,0 +1,15 @@
+| Block      | Elements                                        | Modifiers                                      | 説明                                   |
+|------------|-------------------------------------------------|------------------------------------------------|----------------------------------------|
+| header     | header__logo<br>header__nav<br>header__title      | header--sticky<br>header--transparent          | サイト上部のヘッダー                   |
+| navbar     | navbar__item<br>navbar__link<br>navbar__toggle    | navbar__item--active<br>navbar--collapsed       | ナビゲーションバー                     |
+| section    | section__title<br>section__content<br>section__cta | section--highlight<br>section--padding-large     | コンテンツの各セクション               |
+| footer     | footer__menu<br>footer__social<br>footer__copy    | footer--dark<br>footer--compact                 | サイト下部のフッター                   |
+| container  | container__inner                                | container--fluid<br>container--fixed             | コンテンツのラッパー（全体レイアウト用）  |
+| btn        | （※エレメントは不要な場合が多い）              | btn--primary<br>btn--secondary<br>btn--small      | ボタン用のスタイル                     |
+| card       | card__header<br>card__body<br>card__footer         | card--highlight<br>card--shadow                  | コンテンツブロック（カード形式）       |
+| modal      | modal__header<br>modal__body<br>modal__footer       | modal--large<br>modal--small                      | モーダルウィンドウ                     |
+| form       | form__group<br>form__label<br>form__input<br>form__error | —                                          | 入力フォーム関連                       |
+| list       | list__item<br>list__link                           | —                                            | リスト・メニュー                       |
+| article    | article__header<br>article__content<br>article__footer | —                                          | 記事やブログ投稿の構造                 |
+
+sticky:上部固定
