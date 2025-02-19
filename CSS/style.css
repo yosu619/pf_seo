@@ -112,6 +112,143 @@ body{
 
 }
 
+.Profile__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 400px;
+    background-color: #f7ebd3B3;
+}
+.Profile__title img{
+    max-width: 100%;
+    width: 26px;
+    height: 26px;
+    padding:10px 0 10px 0;
+}
+.Profile__name{
+    color: #333333;
+    font-size: 30px;
+    writing-mode: vertical-rl; /* 縦書き */
+    text-orientation: upright; /* 文字を直立表示 */
+    white-space: normal;     /* 改行を許可 */
+}
+.Profile__name-decorative{
+    color: #7c766a;
+    font-size: 20px;
+    transform: rotate(90deg) translate(-220%, 180%); /*(Y,X)*/
+}
+.Concept__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 400px;
+    background-color: #f7ebd3B3;
+}
+.Concept__title img{
+    max-width: 100%;
+    width: 26px;
+    height: 26px;
+    padding:10px 0 10px 0;
+}
+.Concept__name{
+    color: #333333;
+    font-size: 30px;
+    writing-mode: vertical-rl; /* 縦書き */
+    text-orientation: upright; /* 文字を直立表示 */
+    white-space: normal;     /* 改行を許可 */
+}
+.Concept__name-decorative{
+    color: #7c766a;
+    font-size: 20px;
+    transform: rotate(90deg) translate(-100%, 180%); /*(Y,X)*/
+}
+.Works__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 400px;
+    background-color: #f7ebd3B3;
+}
+.Works__title img{
+    max-width: 100%;
+    width: 26px;
+    height: 26px;
+    padding:10px 0 10px 0;
+}
+.Works__name{
+    color: #333333;
+    font-size: 30px;
+    writing-mode: vertical-rl; /* 縦書き */
+    text-orientation: upright; /* 文字を直立表示 */
+    white-space: normal;     /* 改行を許可 */
+}
+.Works__name-decorative{
+    color: #7c766a;
+    font-size: 20px;
+    transform: rotate(90deg) translate(-250%, 180%); /*(Y,X)*/
+}
+.Service__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 400px;
+    background-color: #f7ebd3B3;
+}
+.Service__title img{
+    max-width: 100%;
+    width: 26px;
+    height: 26px;
+    padding:10px 0 10px 0;
+}
+.Service__name{
+    color: #333333;
+    font-size: 30px;
+    writing-mode: vertical-rl; /* 縦書き */
+    text-orientation: upright; /* 文字を直立表示 */
+    white-space: normal;     /* 改行を許可 */
+}
+.Service__name-decorative{
+    color: #7c766a;
+    font-size: 20px;
+    transform: rotate(90deg) translate(-260%, 180%); /*(Y,X)*/
+}
+.Contact__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 400px;
+    background-color: #f7ebd3B3;
+}
+.Contact__title img{
+    max-width: 100%;
+    width: 26px;
+    height: 26px;
+    padding:10px 0 10px 0;
+}
+.Contact__name{
+    color: #333333;
+    font-size: 30px;
+    writing-mode: vertical-rl; /* 縦書き */
+    text-orientation: upright; /* 文字を直立表示 */
+    white-space: normal;     /* 改行を許可 */
+}
+.Contact__name-decorative{
+    color: #7c766a;
+    font-size: 20px;
+    transform: rotate(90deg) translate(-280%, 180%); /*(Y,X)*/
+}
+
+
 
 
 /* testcode */
@@ -124,3 +261,18 @@ body{
     white-space: normal;     /* 改行を許可 */
     margin: 0 auto;
   }
+
+  /* 0% (完全に透明) の場合、アルファ値は「00」 */
+  /* 100% (完全に不透明) の場合、アルファ値は「FF」 */
+
+/* 透明度 (%)16進数アルファ値 */
+/* 10%		1A */
+/* 20%		33 */
+/* 30%		4D */
+/* 40%		66 */
+/* 50%		80 */
+/* 60%		99 */
+/* 70%		B3 */
+/* 80%		CC */
+/* 90%		E6 */
+/* 100%	    FF */
