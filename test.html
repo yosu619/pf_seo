@@ -4,71 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEY Design Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-image: url('background-washi.jpg'); /* 和紙風背景 */
-            background-size: cover;
-            background-attachment: fixed;
-            font-family: 'Noto Serif JP', serif;
-        }
-        .vertical-text {
-            writing-mode: vertical-rl;
-            text-orientation: upright;
-        }
-    </style>
+    <link rel="stylesheet" href="./CSS2/test.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 </head>
 <body class="text-gray-900">
-    
-    <!-- ナビゲーション -->
-    <nav class="fixed top-0 w-full bg-black bg-opacity-80 text-white p-4 flex justify-center">
-        <ul class="flex space-x-6">
-            <li><a href="#about">プロフィール</a></li>
-            <li><a href="#works">制作実績</a></li>
-            <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
-    </nav>
 
-    <!-- メインセクション -->
-    <section class="h-screen flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-bold">KEY DESIGN</h1>
-        <p class="mt-2 vertical-text text-xl">「デザインで人を楽しませる」</p>
-    </section>
+    <div class="section s_01">
 
-    <!-- プロフィール -->
-    <section id="about" class="py-20 px-10 bg-yellow-100">
-        <h2 class="text-2xl font-bold text-center">プロフィール</h2>
-        <div class="flex justify-center mt-8">
-            <img src="profile-illustration.png" alt="プロフィール画像" class="w-32 h-32">
-            <div class="ml-6">
-                <p>・デザイナー</p>
-                <p>・トレーニング好き</p>
-                <p>・和のデザインに特化</p>
+        <div class="accordion_one">
+          <div class="accordion_header">アコーディオン、シンプル版<div class="i_box"><i class="one_i"></i></div></div>
+          <div class="accordion_inner">
+            <div class="box_one">
+              <p class="txt_a_ac">アコーディオンの中身です。</p>
+              <table class="skill-table">
+                <tr>
+                    <th>skills</th>
+                    <th>edit tool</th>
+                </tr>
+                <tr>
+                    <td>Instagram / Twitter 運用</td>
+                    <td>Meta Business Suite</td>
+                </tr>
+                <tr>
+                    <td>広告運用</td>
+                    <td>Google Ads</td>
+                </tr>
+                <tr>
+                    <td>分析</td>
+                    <td>Google Analytics</td>
+                </tr>
+            </table>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- 制作実績 -->
-    <section id="works" class="py-20 px-10 bg-white">
-        <h2 class="text-2xl font-bold text-center">制作実績</h2>
-        <div class="grid grid-cols-2 gap-6 mt-8">
-            <div class="shadow-lg p-4"><img src="work1.jpg" alt="制作物1"></div>
-            <div class="shadow-lg p-4"><img src="work2.jpg" alt="制作物2"></div>
+        
+        <div class="accordion_one">
+          <div class="accordion_header">アコーディオン、シンプル版<div class="i_box"><i class="one_i"></i></div></div>
+          <div class="accordion_inner">
+            <div class="box_one">
+              <p class="txt_a_ac">アコーディオンの中身です。</p>
+            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- お問い合わせ -->
-    <section id="contact" class="py-20 px-10 bg-yellow-100">
-        <h2 class="text-2xl font-bold text-center">お問い合わせ</h2>
-        <form class="mt-8 max-w-md mx-auto bg-white p-6 shadow-lg">
-            <label class="block">お名前<input type="text" class="border w-full p-2"></label>
-            <label class="block mt-4">メール<input type="email" class="border w-full p-2"></label>
-            <label class="block mt-4">メッセージ<textarea class="border w-full p-2"></textarea></label>
-            <button class="mt-4 bg-red-500 text-white p-2 w-full">送信</button>
-        </form>
-    </section>
-    
-    <footer class="text-center p-6 bg-black text-white mt-10">&copy; 2025 KEY DESIGN</footer>
-
+        
+        <div class="accordion_one">
+          <div class="accordion_header">アコーディオン、シンプル版<div class="i_box"><i class="one_i"></i></div></div>
+          <div class="accordion_inner">
+            <div class="box_one">
+              <p class="txt_a_ac">アコーディオンの中身です。</p>
+            </div>
+          </div>
+        </div>
+        
+        <p class="_a"><a href="https://125naroom.com/web/3046" target="_blank" class="link">View the note</a></p>
+      </div>
+    <script src="./js/accordion.js"></script> 
 </body>
 </html>
