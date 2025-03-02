@@ -367,23 +367,35 @@ body{
 }
 .service__wrapper{
     max-width: 100%;
-    height: 1200px;
+    height: 5400px;
     background-color: #D3AC6766;
     padding-top: 50px;
 }
 /* テーブル */
 .service__container{
+    background-color: #38322a;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
     height: 1000px;
 
   }
 .service__title{
+    color: #ffffff;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 140px;
 }
 .service__description{
-    display: block;
+    max-width: 70%;
     margin: 0 auto;
+}
+.service__description p{
+    color: #ffffff;
+    line-height: 30px;
 }
 /* テーブル */
 .service__contents-table {
@@ -394,6 +406,41 @@ body{
     margin: 0 auto;
     margin-top: 30px;
   }
+.service__contents-table th{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    background-color: #38322a; /* 適宜背景色を調整 */
+    border-bottom: 2px solid white;
+  }
+.service__contents-table td{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding: 40px;
+    background-color: #38322a; /* 適宜背景色を調整 */
+    border-bottom: 1px solid white;
+    line-height: 25px;
+  }
+.service__closeArea{
+    width: 20%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-right: 150px;
+    background-color: #939393;
+}
+.service__closeArea-closebox{
+    background-color: #ccc;
+    margin: 0 auto;
+}
+.service__closebtn{
+    color: #ffffff;
+    background-color: #939300;
+}
 
 /* Contact */
 .Contact__title{
@@ -582,7 +629,6 @@ footer{
     width: 100px;
 }
 
-/* #header 内にテキストを中央配置するためのコンテナ */
 .footer__content {
     position: absolute;
     max-width: 70%;
@@ -610,7 +656,7 @@ footer{
     text-orientation: upright;   /* 文字を直立させる */
     font-size: 20px;
  }
- .navbar__items{
+ .footer__navbar-items{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -618,12 +664,12 @@ footer{
     margin: 0 auto;
     margin-top: 130px;
  }
-.navbar__item p{
+.footer__navbar-item p{
     color: #939393;
     text-align: center;
     margin-bottom: 10px;
 }
-.navbar__item{
+.footer__navbar-item{
     color: #452c21;
     text-align: center;
     margin-bottom: 40px;
