@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 body{
-    /* max-width: 100%; */
+    max-width: 100%;
     height: 10000px;
     background-image: url(../img/bk-img_TOP_cording_op70.jpg);
     background-repeat: repeat-y;
-    /* background-position: left; */
+    background-position: left;
     background-size: 100% auto;
 }
 .decorative-container{
@@ -367,12 +367,30 @@ body{
 }
 .service__wrapper{
     max-width: 100%;
-    height: 5400px;
+    height: 4000px;
     background-color: #D3AC6766;
     padding-top: 50px;
 }
 /* テーブル */
-.service__container{
+.service__container-design{
+    background-color: #38322a;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    height: 1000px;
+
+  }
+.service__container-cording{
+    background-color: #38322a;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    height: 1600px;
+
+  }
+.service__container-videoediting{
     background-color: #38322a;
     width: 70%;
     margin: 0 auto;
@@ -681,6 +699,61 @@ footer{
     color:#333333 ;
  }
  
+
+/* Works_制作実績 */
+header{
+    max-width: 100%;
+    height: 200px;
+    background-color: #f7ebd3E6;
+}
+.works__header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works__header-img{
+    max-width: 50%;
+    width: 100px;
+    margin-top: 100px;
+    padding-right: 200px;
+}
+
+.works__header__navbar-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    max-width: 700px;
+    margin-top: 130px;
+    margin-right: 270px;
+ }
+.works__header-navbaritem p{
+    color: #939393;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.works__header-navbaritem{
+    color: #452c21;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Works-products__wrapper{
+    max-width: 100%;
+    height: 1700px;
+    background-color: #D3AC6766;
+    padding-top: 50px;
+}
+.Works-products__contents{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2列レイアウト */
+    gap: 20px; /* アイテム間の余白 */
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+
 /* testcode */
 
 .vertical-text-3lines {
