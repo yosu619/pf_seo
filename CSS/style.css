@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body{
+.top__body-wrapper{
     max-width: 100%;
     height: 10000px;
     background-image: url(../img/bk-img_TOP_cording_op70.jpg);
@@ -633,9 +633,9 @@ textarea {
     padding-top:50px;
     margin-top: 60px; /* 余白を確保 */
 }
-footer{
+.top__footer-wrapper{
     max-width: 100%;
-    height: 700px;
+    height: 600px;
     background-color: #f7ebd3E6;
 }
 .footer__logo{
@@ -700,43 +700,60 @@ footer{
  }
  
 
-/* Works_制作実績 */
-header{
-    max-width: 100%;
-    height: 200px;
-    background-color: #f7ebd3E6;
-}
-.works__header-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.works__header-img{
-    max-width: 50%;
-    width: 100px;
-    margin-top: 100px;
-    padding-right: 200px;
-}
-
-.works__header__navbar-items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
-    max-width: 700px;
-    margin-top: 130px;
-    margin-right: 270px;
+ /* sub__header */
+ .sub__body-wrapper{
+     max-width: 100%;
+     height: 2000px;
+     background-image: url(../img/bk-img_TOP_cording_op70.jpg);
+     background-repeat: repeat-y;
+     background-position: left;
+     background-size: 100% auto;
  }
-.works__header-navbaritem p{
-    color: #939393;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.works__header-navbaritem{
-    color: #452c21;
-    text-align: center;
-    margin-bottom: 40px;
-}
+ header{
+     max-width: 100%;
+     height: 200px;
+     background-color: #f7ebd3E6;
+ }
+ .sub__header-wrapper{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .sub__header-img{
+     max-width: 50%;
+     width: 100px;
+     margin-top: 100px;
+     padding-right: 200px;
+ }
+ 
+ .sub__header__navbar-items{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 80px;
+     max-width: 700px;
+     margin-top: 130px;
+     margin-right: 270px;
+  }
+ .sub__header-navbaritem p{
+     color: #939393;
+     text-align: center;
+     margin-bottom: 10px;
+ }
+ .sub__header-navbaritem{
+     color: #452c21;
+     text-align: center;
+     margin-bottom: 40px;
+ }
+ 
+ /* sub__footer */
+ .sub__footer-wrapper{
+     max-width: 100%;
+     height: 600px;
+     background-color: #f7ebd3E6;
+ }
+/* Works_制作実績 */
+
 .Works-products__wrapper{
     max-width: 100%;
     height: 1700px;
