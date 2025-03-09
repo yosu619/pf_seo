@@ -889,6 +889,7 @@ textarea {
     padding-top: 50px;
 }
 .otherworks-products__contents{
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2列レイアウト */
     gap: 20px; /* アイテム間の余白 */
