@@ -1306,6 +1306,7 @@ header {
   .concept__title {
     display: flex;
     flex-direction: row;
+    position: relative;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -1316,7 +1317,7 @@ header {
     max-width: 100%;
     width: 26px;
     height: 26px;
-    padding: 10px 0 10px 0;
+    padding: 10px;
   }
   .concept__name {
     color: #333333;
@@ -1324,10 +1325,11 @@ header {
     writing-mode: horizontal-tb; /* 縦書き */
   }
   .concept__name-decorative {
+    position: absolute;
     color: #7c766a;
     font-size: 16px;
     margin-bottom: 110px;
-    transform: rotate(0deg) translate(-220%, 180%); /*(Y,X)*/
+    transform: rotate(0deg) translate(5%, 180%); /*(Y,X)*/
   }
 
   .concept__wrapper {
