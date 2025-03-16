@@ -52,22 +52,31 @@ html {
 header
 ==========*/
 .header__decorator-singlemark {
-  top: 500px;
-  left: 0;
+  max-width: 100%;
+  width: 8.4vw;
+  bottom: 320px;
+  right: 269%;
 }
 .header__decorator-doublemark {
-  top: 800px;
+  max-width: 100%;
+  width: 8.4vw;
+  top: -10px;
   left: 35.6%;
-  transform: translate(-50%, -50%);
+  transform: translate(522%, -95%);
 }
 .header__decorator-hex {
-  top: 850px;
-  left: 0;
+  max-width: 100%;
+  width: 8.4vw;
+  bottom: -5px;
+  right: 269%;
 }
 .header__decorator-round {
-  top: 100px;
-  right: 100px;
+  max-width: 100%;
+  width: 8.4vw;
+  left: 210%;
+  bottom: 850px;
 }
+
 #header {
   width: 18.75vw;
   height: 1020px;
@@ -79,9 +88,8 @@ header
 .header__vertical {
   position: absolute;
   max-width: 100%;
-  top: 50%;
-  right: 0; /* 右端に配置 */
-  transform: translate(250px, -50%); /* 右方向へ150px移動 */
+  top: 15%;
+  left: 170%; /* 右端に配置 */
 }
 .header__catchphrase {
   color: #333333;
@@ -1209,11 +1217,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
-    max-width: 166px;
-    padding-top: 240px;
+    gap: 40px;
+    max-width: 110px;
+    padding-top: 170px;
     margin: 0 auto;
-  }
+}
   .header__nav {
     display: none;
   }
@@ -1255,7 +1263,8 @@ header {
     display: none;
   }
   .header__decorator-doublemark {
-    top: 700px;
+    width: 19.6vw;
+    top: 50px;
     left: 35.4%;
     transform: translate(223%, -50%);
   }
