@@ -1119,7 +1119,7 @@ header {
   grid-template-columns: repeat(2, 1fr); /* 2列レイアウト */
   gap: 20px; /* アイテム間の余白 */
   padding: 20px;
-  width: fit-content;
+  width: 50%;
   margin: 0 auto;
 }
 /* 制作実績_詳細_ */
