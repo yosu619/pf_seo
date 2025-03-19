@@ -1275,6 +1275,8 @@ header {
   .header__decorator-round {
     display: none;
   }
+
+     /* index_profile */
   .profile__title {
     display: flex;
     flex-direction: row;
@@ -1313,6 +1315,8 @@ header {
     letter-spacing: 3px;
     margin-left: 50px;
   }
+
+   /* index_concept */
   .concept__title {
     display: flex;
     flex-direction: row;
@@ -1359,6 +1363,14 @@ header {
     margin-right: 14px;
     margin-left: 30px;
   }
+  .concept__contents-upper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 50px;
+  }
+
+  /* index_works */
   .works__wrapper {
     max-width: 100%;
     height: auto;
@@ -1414,6 +1426,8 @@ header {
     margin: 0 auto;
     padding-bottom: 110px;
 }
+
+ /* index_service */
   .service__title {
     display: flex;
     flex-direction: row;
@@ -1512,7 +1526,7 @@ header {
   }
   /* フォームの外枠 */
   .form-container {
-    width: 350px;
+    width: 100%;
     padding: 20px;
     margin: 0 auto;
     margin-top: 10px;
@@ -1539,7 +1553,7 @@ header {
   .label-wrapper {
     display: flex;
     justify-content: space-between; /* 左にラベル、右に「必須」 */
-    width: 285px; /* ラベルエリアの幅を統一 */
+    width: 95%; /* ラベルエリアの幅を統一 */
     align-items: center;
   }
 
@@ -1563,6 +1577,8 @@ header {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   /* テキストエリア */
