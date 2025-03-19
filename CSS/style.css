@@ -294,7 +294,7 @@ header
 .concept__contents-lower {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
 /* works */
@@ -1369,7 +1369,12 @@ header {
     align-items: start;
     padding-bottom: 50px;
   }
-
+  .concept__upper-img {
+    margin-left: 5%;
+  }
+  .concept__lower-img {
+    margin-right: 5%;
+}
   /* index_works */
   .works__wrapper {
     max-width: 100%;
@@ -1642,7 +1647,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 0px;
+    margin-right: unset;
   }
   .buisinesshours__contents-left-title {
     color: #333333;
