@@ -1623,9 +1623,10 @@ header {
   }
   .buisinesshours__wrapper {
     max-width: 100%;
-    height: 220px;
+    height: 100%;
     background-color: #d3ac6766;
-    padding-top: 80px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
   .buisinesshours__contents {
     display: flex;
@@ -1633,7 +1634,8 @@ header {
     justify-content: center;
     align-items: start;
     gap: 40px;
-    margin-left: 250px;
+    max-width: 260px;
+    margin: 0 auto;
   }
   .buisinesshours__contents-left {
     display: flex;
